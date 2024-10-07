@@ -1,0 +1,22 @@
+body {
+    background-image: url(さくら.jpg);
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+    color: midnightblue;
+}
+
+ul {
+    list-style-image: url(travelicon.png);
+}
+
+.flag {
+    float: right;
+}
+
+.active {
+    color: gray;
+}
