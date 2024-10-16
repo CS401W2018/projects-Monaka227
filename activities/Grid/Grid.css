@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: aquamarine;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 10% 50% 40%;
+    grid-template: 200px 200px/1fr 1fr 1fr;
+}
+
+.item {
+    background-color: lightblue;
+    border: thin solid black;
+}
