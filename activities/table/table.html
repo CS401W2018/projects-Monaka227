@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="table.css">
+    <title>Schedule</title>
+</head>
+<body>
+    <header>
+        <h1>My Class Schedule</h1>
+    </header>
+
+    <main>
+        <table class="schedule">
+            <thead>
+                <tr>
+                    <th>Dept.</th>
+                    <th>Number</th>
+                    <th>Time</th>
+                    <th>Location</th>
+                    <th>Credits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th colspan="5">Computer Science</th>
+                </tr>
+                <tr>
+                    <th>CS</th>
+                    <th>140</th>
+                    <th>M,W,F 12pm</th>
+                    <th>P2</th>
+                    <th>3</th>
+                </tr>
+                <tr>
+                    <th>CS</th>
+                    <th>202</th>
+                    <th>Tu,Th 9:30am</th>
+                    <th rowspan="2">P3</th>
+                    <th>3</th>
+                </tr>
+                <tr>
+                    <th>CS</th>
+                    <th>205</th>
+                    <th>M,W,F 2pm</th>
+                    <th>3</th>
+                </tr>
+                <tr>
+                    <th colspan="5">Chinese</th>
+                </tr>
+                <tr>
+                    <th>CHN</th>
+                    <th>101</th>
+                    <th>M,W,F 1pm</th>
+                    <th>Lorem</th>
+                    <th>4</th>
+                </tr>
+                <tr>
+                    <th colspan="5">Religion</th>
+                </tr>
+                <tr>
+                    <th>REL</th>
+                    <th>122</th>
+                    <th>M,W 8am</th>
+                    <th>P2</th>
+                    <th>2</th>
+                </tr>
+                <tr>
+                    <th colspan="5">English</th>
+                </tr>
+                <tr>
+                    <th>ENG</th>
+                    <th>101</th>
+                    <th>-(Online)</th>
+                    <th>-(Online)</th>
+                    <th>3</th>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="4" id="total-credits">Total Credits</th>
+                    <td headers="total-credits">18</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Shuhada Yasumura</p>
+    </footer>
+</body>
+</html>
