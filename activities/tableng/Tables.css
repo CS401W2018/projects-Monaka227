@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.schedule {
+    border: thin solid black;
+    margin: 50px auto;
+    border-spacing: 5px;
+    border-collapse: collapse;
+    caption-size: bottom;
+   
+}
+
+.schedule td, th {
+    border: thin solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.schedule thead, tfoot {
+    background-color: blue;
+    color: white;
+}
+
+.schedule tbody tr:nth-child(even) {
+    background-color: #CCC;
+}

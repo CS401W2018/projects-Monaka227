@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Tables.css">
+    <title>Schedule</title>
+</head>
+<body>
+    <header>
+        <h1>My Class Schedule</h1>
+    </header>
+
+    <main>
+        <table class="schedule">
+            <thead>
+                <tr>
+                    <th>Dept.</th>
+                    <th>Number</th>
+                    <th>Time</th>
+                    <th>Location</th>
+                    <th>Credits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th colspan="5">Computer Science</th>
+                </tr>
+                <tr>
+                    <td>CS</td>
+                    <td>140</td>
+                    <td>M,W,F 12pm</td>
+                    <td>P2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>CS</td>
+                    <td>202</td>
+                    <td>Tu,Th 9:30am</td>
+                    <td rowspan="2">P3</td>
+                    <td>3</th>
+                </tr>
+                <tr>
+                    <td>CS</td>
+                    <td>205</td>
+                    <td>M,W,F 2pm</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <th colspan="5">Chinese</th>
+                </tr>
+                <tr>
+                    <td>CHN</td>
+                    <td>101</td>
+                    <td>M,W,F 1pm</td>
+                    <td>SC CH2C</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <th colspan="5">Religion</th>
+                </tr>
+                <tr>
+                    <td>REL</td>
+                    <td>122</td>
+                    <td>M,W 8am</td>
+                    <td>SC CH2D</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <th colspan="5">English</th>
+                </tr>
+                <tr>
+                    <td>ENG</td>
+                    <td>101</td>
+                    <td>-(Online)</td>
+                    <td>-(Online)</td>
+                    <td>3</td>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="4" id="total-credits">Total Credits</th>
+                    <td headers="total-credits">18</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <table class="schedule">
+            <thead>
+                <tr>
+                    <th>Answers(Engagement)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1. The border property can be restrictive when trying to control layout details. Using CSS properties like border-style, border-width, and border-color individually can offer more flexibility and control over each side of the border.</td>
+                </tr>
+                <tr>
+                    <td>2. Using the nth-child selector in CSS is the easiest way. For example, tr:nth-child(even) or tr:nth-child(odd) can apply alternating colors to table rows.</td>
+                </tr>
+                <tr>
+                    <td>3. Tables should be used for displaying tabular data, where information is organized in rows and columns. They are not suitable for layout design.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Shuhada Yasumura</p>
+    </footer>
+</body>
+</html>
