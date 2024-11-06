@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form Engagement</title>
+</head>
+<body>
+    <header>
+        <h1>Form Engagement</h1>
+    </header>
+    
+    <main>
+        <form action="processing.html" method="get">
+            First Name: <input type="text" name="first" value="Joe"><br>
+            Last Name: <input type="text" name="last" placeholder="Last Name"><br>
+            Password: <input type="password" name="pass"><br>
+            Class: 
+            <input type="radio" name="a">Freshman
+            <input type="radio" name="a">Sophomore
+            <input type="radio" name="a">Junior
+            <input type="radio" name="a">Senior
+            
+            <br>
+            <input type="checkbox" name="b">Remember me<br>
+            Birthday: <input type="date" name="Birthday"><br>
+            Height: <input type="number" name="Height" min="0" max="300">cm<br>
+            <input typy="search">
+            <input type="range"><br>
+            Comment: <textarea name="comments">
+
+            </textarea>
+            <br>
+            State: <select name="state">
+                <option value="blank"></option>
+                <option value="hi">Hawaii</option>
+                <option value="ut">Utah</option>
+                <option value="co">Colorado</option>
+            </select>
+            <br>
+            <input type="color"><br>
+            <input type="reset">
+            <input type="submit">
+        </form>
+
+
+        <h2>Answers</h2>
+        <ol>
+            <li>action attribute: Specifies the URL to send the form data to when it is submitted. This is usually the URL of the server-side script that will process the data (e.g., action="submit_form.php").</li>
+            <li>method attribute: Specifies the HTTP method to use when sending form data. The two most common methods are "GET" and "POST".</li>
+            <li>
+                <ul>
+                    <li>GET: Sends data appended to the URL. Because the data is visible in the URL, it’s suitable for small amounts of data, like search queries.</li>
+                    <li>POST: Sends data in the request body, not visible in the URL, making it more secure. It’s ideal for submitting form data and large amounts of information.</li>
+                </ul>
+            </li>
+        </ol>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Shuhada Yasumura</p>
+    </footer>
+</body>
+</html>
