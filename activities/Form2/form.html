@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form Engagement</title>
+</head>
+<body>
+    <header>
+        <h1>Form Engagement</h1>
+    </header>
+    
+    <main>
+        <form action="processing.html" method="get">
+            <fieldset>
+                <legend>Sign Up</legend>
+                <div class="form-row">
+                    <label for="fname">First Name: </label>
+                    <input type="text" id="fname" name="first" value="Joe" required><br>
+                </div>
+
+                <div class="form-row">
+                    <label for="fname">Last Name: </label>
+                    <input type="text" id="lname" name="last" value="Joe" required><br>
+                </div>
+
+                <div class="form-row">
+                    <label for="pass">Password: </label>
+                    <input type="text" id="pass" name="pass" value="Joe" required><br>
+                </div>
+            
+                <div class="check-row">
+                    <div class="spacer"></div>
+                    <label>
+                        <input type="checkbox" name="Remember" checked>
+                        Remember me
+                    </label>
+                </div>
+
+                <div class="form-row">
+                    <label for="state">State</label>
+                    <select name="state" id="state">
+                        <option value="blank"></option>
+                        <option value="hi">Hawaii</option>
+                        <option value="ut">Utah</option>
+                        <option value="co">Colorado</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label for="comments">Comments</label>
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="spacer">Class: </div>
+                    <label><input type="radio" name="class" value="freshman">Freshman</label>
+                    <label><input type="radio" name="class" value="sophomore">Sophomore</label>
+                </div>
+                <div class="form-row">
+                    <div class="spaeer"></div>
+                    <input type="reset">
+                    <input type="submit">
+                </div>
+            </fieldset>
+        </form>
+
+
+        <h2>Answers</h2>
+        <ol>
+            <li>Flexbox, grid layout, padding and margins, borders and shadows, custom colors and rounded corners.</li>
+            <li>Flexbox is easy to use for creating responsive layouts. It lets you align items quickly, handle spacing well, and adjust to different screen sizes without extra CSS. This makes it perfect for forms and other layouts that need flexibility.</li>
+        </ol>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Shuhada Yasumura</p>
+    </footer>
+</body>
+</html>
