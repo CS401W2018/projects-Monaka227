@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>Registration</h1>
+    </header>
+    <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+    </nav>
+
+    <main>
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Registration Form</legend>
+                <div class="form-row">
+                    <label for="username">User Name: </label>
+                    <input type="text" id="username" name="username" placeholder="User Name">
+                </div>
+                <div class="spacer"></div>
+                <div class="form-row">
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" placeholder="Email address">
+                </div>
+                <div class="spacer"></div>
+                <div class="form-row">
+                    <label for="phone">Phone number: </label>
+                    <input type="tel" id="phone" name="phone" placeholder="phone number">
+                </div>
+                <div class="spacer"></div>
+                <div class="form-row">
+                    <label for="birthday">Birthday: </label>
+                    <input type="date" id="birthday" name="birthday">
+                </div>
+                <div class="spacer"></div>
+                <div class="form-row">
+                    <label for="gender">Gender: </label>
+                    <input type="radio"id="gender" name="gender">Male
+                    <input type="radio"id="gender" name="gender">Female
+                </div>
+                <div class="spacer"></div>
+                <div class="form-row">
+                    <label for="password">Password: </label>
+                    <input type="password" id="password" name="password" placeholder="password">
+                </div>
+                <div class="spacer"></div>
+                <div class="form-row">
+                    <label for="session">Session you would like to attend: </label>
+                    <select name="session" id="session">
+                        <option value="blank"></option>
+                        <option value="1pm">1pm</option>
+                        <option value="2pm">2pm</option>
+                        <option value="3pm">3pm</option>
+                    </select>
+                </div>
+                <div class="spacer"></div>
+                <div class="form-row">
+                    <input type="checkbox" name="check">I accept the <a href="#">general terms and conditions of use.</a>
+                    <input type="checkbox" name="check">I accept the <a href="#">Privacy Policy.</a>
+                    <input type="checkbox" name="check">I would like to receive your newsletter</a>
+                </div>
+                <div class="spacer"></div>
+                <div class="form-row">
+                    <label for="intro">Self Introduce: </label>
+                    <input type="textarea" id="intro" name="intro">
+                </div>
+                <div class="spacer"></div>
+                <div class="form-row">
+                    <label for="button">Please check that there are no errors in the entered information.</label>
+                    <input type="submit" id="button" name="button">
+                    <input type="reset" id="button" name="button">
+                </div>
+                <h2>Engagement Answers</h2>
+                    <ol>
+                        <li>AJAX (Asynchronous JavaScript and XML) is a technique used in web development to create dynamic, interactive web pages. It allows a web page to send and receive data from a server asynchronously, without reloading the entire page. This improves the user experience by enabling faster updates and smoother interactions.</li>
+                        <li>
+                            <ul>
+                                <li>Code Reusability: A separate JavaScript file can be reused across multiple HTML files, reducing duplication.</li>
+                                <li>Improved Readability: Keeping JavaScript code separate makes the HTML and JavaScript easier to read and maintain.</li>
+                                <li>Caching: Browsers can cache the JavaScript file, improving load times for subsequent visits.</li>
+                                <li>Separation of Concerns: It follows the best practice of keeping structure (HTML), styling (CSS), and behavior (JavaScript) separate, leading to cleaner and more modular code.</li>
+                            </ul>
+                        </li>
+                    </ol>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Shuhada Yasumura</p>
+    </footer>
+
+    <script src="form.js"></script>
+</body>
+</html>
